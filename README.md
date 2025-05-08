@@ -26,3 +26,32 @@ This application also includes a **Graphical User Interface (GUI)** built using 
 -  **Automatic Key Management**: Generates and securely stores an encryption key in a file called `secret.key`. The same key is reused for all operations unless replaced.
 - **Status Notifications**: Provides feedback to users upon successful encryption, decryption, or in the case of an error (e.g., file not found).
 -  **Safe Exit**: Users can exit the application safely using the "Exit" button.
+
+  # ADDITONAL ENHANCEMENTS
+
+To deepen understanding of GUI development in Python and make the tool more interactive, I added the following personal enhancements:
+
+- **Custom Background Color**: A light blue background was applied to the GUI window to make the interface visually appealing and improve readability.
+- **Exit Button**: A dedicated "Exit" button was implemented that allows users to close the application easily, demonstrating proper event handling in Tkinter.
+- **Hover Effects on Buttons**: To enhance the user experience and make the interface feel more dynamic, I added hover effects on the buttons. When the user hovers over any button (like "Encrypt", "Decrypt", "Select File", or "Exit"), the button color or style changes to indicate it is clickable. This improvement was made for both aesthetic appeal and improved usability.
+
+These features were added beyond the project requirements to support my learning goals in GUI design and Python event-driven programming.
+
+# HOW IT WORKS
+
+1. On the first run, the program automatically creates a `secret.key` file, which stores the encryption key securely.
+2. Users can select any file from their system using the "Select File" button.
+3. Clicking the "Encrypt" button will encrypt the selected file and create a new file with a `.enc` extension.
+4. Clicking the "Decrypt" button will decrypt any previously encrypted `.enc` file and create a new file with a `.dec` extension.
+5. Status messages will notify the user of success or errors (e.g., file not found).
+6. The "Exit" button cleanly shuts down the application.
+
+# SETUP INSTRUCTIONS
+
+ **PREREQUISITES**
+
+- Python 3.6 or above
+- Required libraries:
+  ```bash
+  pip install cryptography
+
