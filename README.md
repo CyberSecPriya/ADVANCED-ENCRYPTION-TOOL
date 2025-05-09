@@ -90,10 +90,20 @@ Here are sample outputs demonstrating the encryption and decryption process:
 
 ![Image](https://github.com/user-attachments/assets/6a785922-aa11-4594-8806-82a1c8a59e1e)
 
-Encrypted and saved as yourfile.txt.enc
+Encrypted and saved as your file.txt.enc
 
 - **When a file is successfully decrypted the output you will recieve as show in below:**
 
 ![Image](https://github.com/user-attachments/assets/c0ddf67b-aa30-418e-a25c-b7fda2a17e72)
 
-  Decrypted and saved as yourfile.txt.dec
+  Decrypted and saved as your file.txt.dec
+
+ # NOTE
+
+This project is intended for educational purposes during an internship and is **not licensed for commercial use** without prior approval.
+
+ # CONCLUSION
+  
+This Advanced Encryption Tool was built to demonstrate secure file encryption and decryption using AES-256 through Python’s `cryptography` library, combined with a simple and user-friendly GUI developed using Tkinter. The project successfully allows users to select files, encrypt or decrypt them with a secure key, and receive visual feedback through the interface.
+
+Some enhancements such as the background color, the Exit button, and the hover effect were added purely for my personal learning and experimentation with GUI elements in Python. These features help improve user interaction and were valuable for my growth in understanding how to make desktop applications more interactive and visually intuitive.
