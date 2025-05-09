@@ -55,3 +55,26 @@ These features were added beyond the project requirements to support my learning
   ```bash
   pip install cryptography
 
+# RUNNING THE APPLICATION
+
+1. Save the source code in a file named encryption_tool_gui.py.
+
+2. Run the file using:
+
+```bash
+python encryption_tool_gui.py
+```
+3. The GUI window will open. Use the interface to select and encrypt/decrypt files.
+
+# FILE STRUCTURE
+
+.
+├── encryption_tool_gui.py     # Main GUI and encryption/decryption logic
+├── secret.key                 # Automatically generated encryption key
+├── sampletest.txt             # Example input file
+├── test.txt.enc               # Example encrypted output file
+├── test.txt.dec               # Example decrypted output file   
+
+**IMPORTANT**: Do Not Upload `secret.key` to Public Repositories
+
+This key is essential for both encrypting and decrypting files. Sharing it publicly would compromise the security of all encrypted files.
