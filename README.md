@@ -68,16 +68,35 @@ python encryption_tool_gui.py
 
 # FILE STRUCTURE
 
-1. encryption_tool_gui.py         **# Main GUI and encryption/decryption logic**
+1. encryption_tool_gui.py         **( Main GUI and encryption/decryption logic)**
    
-2. secret.key                    **# Automatically generated encryption key**
+2. secret.key                    **( Automatically generated encryption key )**
 
-3. sampletest.txt                 **# Example input file**
+3. sampletest.txt                 **( Example input file )**
  
-4. test.txt.enc                   **# Example encrypted output file**
+4. test.txt.enc                   **( Example encrypted output file )**
  
-5. test.txt.dec                   **# Example decrypted output file**   
+5. test.txt.dec                   **( Example decrypted output file )**   
 
 **IMPORTANT**: Do Not Upload `secret.key` to Public Repositories
 
 This key is essential for both encrypting and decrypting files. Sharing it publicly would compromise the security of all encrypted files.
+
+# OUTPUT 
+
+## Output
+
+Here are sample outputs demonstrating the encryption and decryption process:
+
+- **When a file is successfully encrypted:**
+
+
+
+Encrypted and saved as yourfile.txt.enc
+
+
+- **When a file is successfully decrypted:**
+
+
+
+  Decrypted and saved as yourfile.txt.dec
