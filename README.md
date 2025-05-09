@@ -84,8 +84,6 @@ This key is essential for both encrypting and decrypting files. Sharing it publi
 
 # OUTPUT 
 
-## Output
-
 Here are sample outputs demonstrating the encryption and decryption process:
 
 - **When a file is successfully encrypted:**
