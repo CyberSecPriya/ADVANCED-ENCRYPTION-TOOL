@@ -88,7 +88,7 @@ Here are sample outputs demonstrating the encryption and decryption process:
 
 - **When a file is successfully encrypted:**
 
-
+![Image](https://github.com/user-attachments/assets/6a785922-aa11-4594-8806-82a1c8a59e1e)
 
 Encrypted and saved as yourfile.txt.enc
 
