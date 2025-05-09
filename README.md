@@ -86,15 +86,14 @@ This key is essential for both encrypting and decrypting files. Sharing it publi
 
 Here are sample outputs demonstrating the encryption and decryption process:
 
-- **When a file is successfully encrypted:**
+- **When a file is successfully encrypted the output you will recieve as show in below:**
 
 ![Image](https://github.com/user-attachments/assets/6a785922-aa11-4594-8806-82a1c8a59e1e)
 
 Encrypted and saved as yourfile.txt.enc
 
+- **When a file is successfully decrypted the output you will recieve as show in below:**
 
-- **When a file is successfully decrypted:**
-
-
+![Image](https://github.com/user-attachments/assets/c0ddf67b-aa30-418e-a25c-b7fda2a17e72)
 
   Decrypted and saved as yourfile.txt.dec
