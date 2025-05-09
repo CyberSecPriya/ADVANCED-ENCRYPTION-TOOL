@@ -68,12 +68,15 @@ python encryption_tool_gui.py
 
 # FILE STRUCTURE
 
-.
-├── encryption_tool_gui.py     # Main GUI and encryption/decryption logic
-├── secret.key                 # Automatically generated encryption key
-├── sampletest.txt             # Example input file
-├── test.txt.enc               # Example encrypted output file
-├── test.txt.dec               # Example decrypted output file   
+1. encryption_tool_gui.py     # Main GUI and encryption/decryption logic
+   
+2. secret.key                 # Automatically generated encryption key
+
+3. sampletest.txt             # Example input file
+ 
+4. test.txt.enc               # Example encrypted output file
+ 
+5. test.txt.dec               # Example decrypted output file   
 
 **IMPORTANT**: Do Not Upload `secret.key` to Public Repositories
 
