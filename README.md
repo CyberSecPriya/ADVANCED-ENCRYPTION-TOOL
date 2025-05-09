@@ -68,7 +68,7 @@ python encryption_tool_gui.py
 
 # FILE STRUCTURE
 
-1. encryption_tool_gui.py     # Main GUI and encryption/decryption logic
+├── encryption_tool_gui.py     # Main GUI and encryption/decryption logic
    
 2. secret.key                 # Automatically generated encryption key
 
